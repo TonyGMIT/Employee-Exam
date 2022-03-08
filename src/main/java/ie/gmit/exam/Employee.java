@@ -18,6 +18,8 @@ public class Employee {
     public Employee(String title, String empType, int age) {
         setTitle(title);
         //setName(name);
+        //setPPS(pps);
+        //setPhone(phone);
         setEmploymentType(empType);
         setAge(age);
     }
@@ -45,10 +47,5 @@ public class Employee {
         }
 
     }
-//    private void setName(String name) {
-//        if(toString().length())
-//
-//    }
-
 
 }
