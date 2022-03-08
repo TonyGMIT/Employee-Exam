@@ -5,12 +5,15 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class EmployeeTest {
-    private Employee myEmployee;
+    private Employee myEmployee = new Employee("Mr", "Full-time");
 
     @Test
     void titleTest(){
-        myEmployee = new Employee("Mr");
         assertEquals("Mr",myEmployee.getTitle());
+    }
+    @Test
+    void JobTest(){
+        assertEquals("Full-time",myEmployee.getEmploymentType());
     }
 
 }
